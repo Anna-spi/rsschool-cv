@@ -59,3 +59,66 @@ li {
   transition: all 1.3s;
   text-shadow: 1px 1px 2px rgb(24, 6, 9);
 }
+
+.main {
+  margin-top: 70px;
+  margin-bottom: 30px;
+  background: url(../assets/img/main_bg.png) no-repeat 50% 100%;
+  min-height: 1300px;
+}
+
+.profile {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile__photo {
+  position: absolute;
+  top: 8px;
+  right: 90px;
+}
+
+.profile__descr {
+  margin: 50px 250px 0 0;
+}
+
+.profile__contacts {
+  display: flex;
+  margin-top: 20px;
+}
+
+.profile__email {
+  padding-left: 25px;
+  background: url(../assets/svg/icon-email.svg) no-repeat;
+  margin: 0 10px 0 0;
+  color: rgb(160, 160, 160);
+}
+
+.profile__phone {
+  padding-left: 22px;
+  background: url(../assets/svg/icon-phone.svg) no-repeat;
+  color: rgb(160, 160, 160);
+}
+
+.profile__email:hover,
+.profile__phone:hover {
+  color: #000000;
+  transition: all 1s;
+}
+
+.title {
+  font-weight: 800;
+  text-align: left;
+  line-height: 30px;
+  font-size: 30px;
+}
+
+.subtitle {
+  margin: 7px 0;
+  font-weight: 700;
+  text-align: left;
+  line-height: 25px;
+  font-size: 24px;
+}
