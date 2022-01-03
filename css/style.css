@@ -379,6 +379,10 @@ li {
   border-radius: 50%;
 }
 
+.round:hover {
+  background-color: rgb(127, 67, 224);
+}
+
 .footer {
   background-color: rgba(127, 67, 224, 0.541);
   width: 100%;
