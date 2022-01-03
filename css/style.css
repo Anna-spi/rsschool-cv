@@ -122,3 +122,105 @@ li {
   line-height: 25px;
   font-size: 24px;
 }
+.subtitle__right {
+  padding-left: 15px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.contats__body-item a {
+  color: #000000;
+  margin-top: 10px;
+}
+
+.contats__body-item {
+  margin-top: 5px;
+}
+
+.contacts__telegram:hover {
+  color: #356ce4;
+  text-shadow: 1px 1px 2px rgb(24, 6, 9);
+  transition: all 1s;
+}
+
+.contacts__telegram::before {
+  content: url(../assets/svg/telegram.svg);
+  position: relative;
+  top: 3px;
+  left: -3px;
+}
+
+.github:hover {
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgb(24, 6, 9);
+  transition: all 1s;
+}
+
+.github::before {
+  content: url(../assets/svg/github-icon.svg);
+  position: relative;
+  top: 2px;
+  left: -3px;
+}
+
+.contacts__dis:hover {
+  color: #734be0;
+  text-shadow: 1px 1px 2px rgb(24, 6, 9);
+  transition: all 1s;
+}
+
+.contacts__dis::before {
+  content: url(../assets/svg/discord-icon.svg);
+  position: relative;
+  top: 3px;
+  left: -3px;
+}
+
+.education__body-university {
+  text-transform: uppercase;
+  line-height: 20px;
+}
+
+.education_body-link {
+  color: #000000;
+}
+
+.education_body-link:hover {
+  color: rgb(121, 148, 2);
+  text-shadow: 1px 1px 2px pink;
+  transition: all 1s;
+}
+
+.education_body-item::before {
+  content: "➱";
+  position: relative;
+  top: 0;
+  left: -3px;
+}
+
+.languages__body-item {
+  line-height: 25px;
+  font-size: 14px;
+}
+
+.block-left {
+  padding-left: 10px;
+  margin-top: 30px;
+  border: 1px solid #515151;
+  border-radius: 12px;
+  width: 225px;
+  height: 128px;
+  background: #ffffff;
+}
+
+.block-left:nth-child(2) {
+  height: 230px;
+}
+
+.block-left:nth-child(3) {
+  height: 105px;
+}
