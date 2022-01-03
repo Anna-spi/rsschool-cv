@@ -224,3 +224,117 @@ li {
 .block-left:nth-child(3) {
   height: 105px;
 }
+
+.block-right {
+  margin-top: 30px;
+  width: 520px;
+  height: 240px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-shadow: 15px 15px 0px #fe74a6;
+  border-radius: 12px;
+  margin-right: 40px;
+}
+
+.block-right:nth-child(2) {
+  height: 230px;
+  box-shadow: 15px 15px 0px #3dc39b;
+}
+
+.block-right:nth-child(3) {
+  width: 470px;
+  height: 180px;
+  box-shadow: 15px 15px 0px #5b6dff;
+  padding: 0 10px 0;
+}
+
+.about p {
+  padding-left: 10px;
+  text-indent: 15px;
+  font-size: 15px;
+}
+
+.about span {
+  /* font-family: "Source Sans Pro"; */
+  font-weight: 800;
+  color: #ff6a00;
+  font-size: 14px;
+  padding-left: 20px;
+  line-height: 32px;
+}
+
+/* Skills */
+.skills-list {
+  margin: 0;
+  padding: 0;
+}
+
+.skills__list dt {
+  padding-left: 28px;
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-left: 11px;
+}
+
+.skills__list-html {
+  background-image: url(../assets/svg/icon-html.svg);
+}
+
+.skills__list-css {
+  background-image: url(../assets/svg/icon-css.svg);
+}
+
+.skills__list-js {
+  background-image: url(../assets/svg/icons8-javascript.svg);
+}
+
+.skills__list-git {
+  background-image: url(../assets/svg/git-icon.svg);
+}
+
+.level {
+  width: 500px;
+  margin: 4px 0 11px 8px;
+  padding: 0;
+  height: 12px;
+  font-size: 0;
+  background-color: #080208;
+  border: 1px solid #712073;
+  border-radius: 8px;
+}
+
+.level div {
+  margin: 1px;
+  height: 8px;
+  background-color: rgb(78, 25, 163);
+  border-radius: 6px;
+}
+
+.examples__body-descr {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.examples__color-orange {
+  color: #ff6a00;
+}
+
+.examples__color-blue {
+  color: #356ce4;
+}
+
+.examples__color-pink {
+  color: #fe74a6;
+}
+
+.examples__color-yellow {
+  color: gold;
+}
+
+.examples__color-violet {
+  color: blueviolet;
+}
+
+.examples__header {
+  padding-left: 5px;
+}
