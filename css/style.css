@@ -378,3 +378,40 @@ li {
   background-color: rgb(201, 51, 25);
   border-radius: 50%;
 }
+
+.footer {
+  background-color: rgba(127, 67, 224, 0.541);
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__year {
+  color: aliceblue;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.footer__github {
+  color: aliceblue;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.footer__github:hover {
+  color: #000000;
+  text-shadow: 1px 1px 2px aliceblue;
+  transition: all 1.7s;
+}
+
+.footer__logo-img {
+  width: 70px;
+  height: 35px;
+}
+
+.bold {
+  font-weight: 700;
+}
